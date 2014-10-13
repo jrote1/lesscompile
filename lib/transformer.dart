@@ -26,7 +26,7 @@ class LessTransformer extends Transformer {
     List<String> files;
 
     String config_path;
-    String root_path;
+    String root_path = '';
 
     LessTransformer.asPlugin(this.settings) {
         var args = settings.configuration;
